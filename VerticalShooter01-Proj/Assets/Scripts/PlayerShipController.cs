@@ -7,9 +7,16 @@ public class PlayerShipController : MonoBehaviour
 {
     [SerializeField] float _moveSpeed = 5.0f;
     [SerializeField] Projectile _projectilePrefab;
+    [SerializeField] float _projectileShotsPerSecond = 5.0f;
 
     Rigidbody2D _rigidbody2D;
+    PlayerInput _playerInput;
+
     Vector2 _movementInput;
+
+    InputAction _fireInputAction;
+    float _fireRate;
+    float _timeSinceLastShot;
 
     enum PowerUpState
     {
@@ -23,15 +30,37 @@ public class PlayerShipController : MonoBehaviour
 
     PowerUpState _currentPowerUpState;
 
+    void ResetTimeSinceLastShot() { _timeSinceLastShot = _fireRate; }
+
     void Start()
     {
         _rigidbody2D = GetComponent<Rigidbody2D>();
+        _playerInput = GetComponent<PlayerInput>();
         _currentPowerUpState = PowerUpState.Level_0;
+
+        // Input
+        _fireInputAction = _playerInput.actions["Fire"];
+
+        // Weapons / Projectiles
+        _fireRate = 1.0f / _projectileShotsPerSecond;
+
+        // Initialize "time since last shot" to the fire rate, so there is no delay on the very first shot
+        ResetTimeSinceLastShot();
     }
 
     void Update()
     {
-        //Debug.Log("PlayerShipController.Update");
+        // Fire projectiles if Fire button is held down
+        if (_fireInputAction.IsPressed())
+        {
+            _timeSinceLastShot += Time.deltaTime;
+            if (_timeSinceLastShot >= _fireRate)
+            {
+                // Fire projectile/projectiles
+                FireProjectile();
+                _timeSinceLastShot = 0.0f;
+            }
+        }
     }
 
     void FixedUpdate()
@@ -45,7 +74,7 @@ public class PlayerShipController : MonoBehaviour
 
     void OnFire(InputValue inputValue)
     {
-        GameObject.Instantiate<Projectile>(_projectilePrefab, _rigidbody2D.position, Quaternion.identity);
+        // No need to check if pressed here. We check if the button is held in Update().
     }
 
     void OnMove(InputValue inputValue)
@@ -55,16 +84,12 @@ public class PlayerShipController : MonoBehaviour
 
     void OnIncreasePowerUpState()
     {
-        Debug.Log("OnIncreasePowerUpState");
         IncrementPowerUpState();
-        Debug.Log(" -> _currentPowerUpState: " + _currentPowerUpState);
     }
 
     void OnDecreasePowerUpState()
     {
-        Debug.Log("OnDecreasePowerUpState");
         DecrementPowerUpState();
-        Debug.Log(" -> _currentPowerUpState: " + _currentPowerUpState);
     }
 
     void IncrementPowerUpState()
@@ -85,5 +110,10 @@ public class PlayerShipController : MonoBehaviour
             nextPowerUpState = (int)PowerUpState.Level_0;
         }
         _currentPowerUpState = (PowerUpState)nextPowerUpState;
+    }
+
+    void FireProjectile()
+    {
+        GameObject.Instantiate<Projectile>(_projectilePrefab, _rigidbody2D.position, Quaternion.identity);
     }
 }

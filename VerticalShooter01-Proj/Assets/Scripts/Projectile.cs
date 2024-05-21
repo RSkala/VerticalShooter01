@@ -40,6 +40,6 @@ public class Projectile : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        Debug.Log("Projectile.OnCollisionEnter2D - " + gameObject.name + ", collision: " + collision.gameObject.name);
+        //Debug.Log("Projectile.OnCollisionEnter2D - " + gameObject.name + ", collision: " + collision.gameObject.name);
     }
 }
