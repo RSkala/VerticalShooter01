@@ -6,6 +6,7 @@ using UnityEngine.InputSystem;
 public class PlayerShipController : MonoBehaviour
 {
     [SerializeField] float _moveSpeed = 5.0f;
+    [SerializeField] Projectile _projectilePrefab;
 
     Rigidbody2D _rigidbody2D;
     Vector2 _movementInput;
@@ -32,6 +33,8 @@ public class PlayerShipController : MonoBehaviour
     void OnFire(InputValue inputValue)
     {
         Debug.Log("OnFire");
+
+        GameObject.Instantiate<Projectile>(_projectilePrefab, _rigidbody2D.position, Quaternion.identity);
     }
 
     void OnMove(InputValue inputValue)
