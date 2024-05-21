@@ -82,6 +82,15 @@ public class PlayerShipController : MonoBehaviour
         _movementInput = inputValue.Get<Vector2>();
     }
 
+    void OnValidate()
+    {
+        if(_projectileShotsPerSecond <= 0.0f)
+        {
+            _projectileShotsPerSecond = 1.0f;
+        }
+        _fireRate = 1.0f / _projectileShotsPerSecond;
+    }
+
     void OnIncreasePowerUpState()
     {
         IncrementPowerUpState();

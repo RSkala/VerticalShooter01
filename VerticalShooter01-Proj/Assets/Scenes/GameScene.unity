@@ -477,6 +477,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlayerShip_Debug
       objectReference: {fileID: 0}
+    - target: {fileID: 5401996793602201549, guid: ea5c5f802c9f7e64190cade8b92e9fc4, type: 3}
+      propertyPath: _projectileShotsPerSecond
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
