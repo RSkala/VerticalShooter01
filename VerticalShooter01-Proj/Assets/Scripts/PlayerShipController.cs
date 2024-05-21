@@ -12,6 +12,7 @@ public class PlayerShipController : MonoBehaviour
 
     Rigidbody2D _rigidbody2D;
     PlayerInput _playerInput;
+    SpriteRenderer _spriteRenderer;
 
     Vector2 _movementInput;
 
@@ -55,6 +56,7 @@ public class PlayerShipController : MonoBehaviour
     {
         _rigidbody2D = GetComponent<Rigidbody2D>();
         _playerInput = GetComponent<PlayerInput>();
+        _spriteRenderer = GetComponent<SpriteRenderer>();
 
         // Initialize the player's ship level to 0
         _currentPowerUpState = PowerUpState.Level_0;
@@ -103,6 +105,27 @@ public class PlayerShipController : MonoBehaviour
                 FireProjectiles();
                 _timeSinceLastShot = 0.0f;
             }
+        }
+
+        // Temp: Set ship sprites
+        if (_movementInput != null)
+        {
+            if (_movementInput.x < 0.0f)
+            {
+                _spriteRenderer.sprite = GameManager.Instance.PlayerShipSpritesArray[0].ShipSpriteLeft;
+            }
+            else if (_movementInput.x > 0.0f)
+            {
+                _spriteRenderer.sprite = GameManager.Instance.PlayerShipSpritesArray[0].ShipSpriteRight;
+            }
+            else
+            {
+                _spriteRenderer.sprite = GameManager.Instance.PlayerShipSpritesArray[0].ShipSpriteCenter;
+            }
+        }
+        else
+        {
+            _spriteRenderer.sprite = GameManager.Instance.PlayerShipSpritesArray[0].ShipSpriteCenter;
         }
     }
 
