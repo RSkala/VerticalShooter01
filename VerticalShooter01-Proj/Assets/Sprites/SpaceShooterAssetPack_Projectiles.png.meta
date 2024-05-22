@@ -110,15 +110,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SpaceShooterAssetPack_Projectiles_0
+      name: Projectile_001
       rect:
         serializedVersion: 2
-        x: 0
-        y: 72
-        width: 8
-        height: 8
+        x: 4
+        y: 75
+        width: 1
+        height: 1
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -131,15 +131,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceShooterAssetPack_Projectiles_1
+      name: Projectile_002
       rect:
         serializedVersion: 2
-        x: 8
-        y: 72
-        width: 8
-        height: 8
+        x: 11
+        y: 74
+        width: 1
+        height: 2
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -152,15 +152,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceShooterAssetPack_Projectiles_2
+      name: Projectile_003
       rect:
         serializedVersion: 2
-        x: 16
-        y: 72
-        width: 8
-        height: 8
+        x: 19
+        y: 74
+        width: 1
+        height: 3
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -173,15 +173,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceShooterAssetPack_Projectiles_3
+      name: Projectile_004
       rect:
         serializedVersion: 2
-        x: 24
-        y: 72
-        width: 8
-        height: 8
+        x: 27
+        y: 74
+        width: 2
+        height: 3
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -194,15 +194,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceShooterAssetPack_Projectiles_4
+      name: Projectile_005
       rect:
         serializedVersion: 2
-        x: 32
-        y: 72
-        width: 8
-        height: 8
+        x: 35
+        y: 75
+        width: 3
+        height: 2
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -215,15 +215,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceShooterAssetPack_Projectiles_5
+      name: Projectile_006
       rect:
         serializedVersion: 2
-        x: 40
-        y: 72
-        width: 8
-        height: 8
+        x: 42
+        y: 75
+        width: 4
+        height: 2
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -236,15 +236,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceShooterAssetPack_Projectiles_6
+      name: Projectile_007
       rect:
         serializedVersion: 2
-        x: 0
-        y: 64
-        width: 8
-        height: 8
+        x: 2
+        y: 65
+        width: 3
+        height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -257,15 +257,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceShooterAssetPack_Projectiles_7
+      name: Projectile_008
       rect:
         serializedVersion: 2
-        x: 8
-        y: 64
-        width: 8
-        height: 8
+        x: 10
+        y: 65
+        width: 3
+        height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -278,7 +278,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceShooterAssetPack_Projectiles_8
+      name: Projectile_009
       rect:
         serializedVersion: 2
         x: 16
@@ -286,7 +286,7 @@ TextureImporter:
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -299,15 +299,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceShooterAssetPack_Projectiles_9
+      name: Projectile_010
       rect:
         serializedVersion: 2
-        x: 24
-        y: 64
-        width: 8
-        height: 8
+        x: 25
+        y: 65
+        width: 6
+        height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -320,15 +320,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceShooterAssetPack_Projectiles_10
+      name: Projectile_011
       rect:
         serializedVersion: 2
-        x: 32
-        y: 64
-        width: 8
-        height: 8
+        x: 33
+        y: 67
+        width: 6
+        height: 4
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -341,15 +341,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceShooterAssetPack_Projectiles_11
+      name: Projectile_012
       rect:
         serializedVersion: 2
         x: 40
-        y: 64
+        y: 67
         width: 8
-        height: 8
+        height: 5
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -362,15 +362,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceShooterAssetPack_Projectiles_12
+      name: Projectile_013
       rect:
         serializedVersion: 2
-        x: 0
-        y: 56
-        width: 8
-        height: 8
+        x: 2
+        y: 58
+        width: 3
+        height: 5
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -383,15 +383,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceShooterAssetPack_Projectiles_13
+      name: Projectile_014
       rect:
         serializedVersion: 2
-        x: 8
-        y: 56
-        width: 8
-        height: 8
+        x: 10
+        y: 57
+        width: 3
+        height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -404,15 +404,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceShooterAssetPack_Projectiles_14
+      name: Projectile_015
       rect:
         serializedVersion: 2
-        x: 16
-        y: 56
-        width: 8
-        height: 8
+        x: 19
+        y: 59
+        width: 2
+        height: 2
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -425,15 +425,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceShooterAssetPack_Projectiles_15
+      name: Projectile_016
       rect:
         serializedVersion: 2
-        x: 24
-        y: 56
-        width: 8
-        height: 8
+        x: 26
+        y: 58
+        width: 4
+        height: 4
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -446,15 +446,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceShooterAssetPack_Projectiles_16
+      name: Projectile_017
       rect:
         serializedVersion: 2
-        x: 32
-        y: 56
-        width: 8
-        height: 8
+        x: 35
+        y: 59
+        width: 3
+        height: 4
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -467,15 +467,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceShooterAssetPack_Projectiles_17
+      name: Projectile_018
       rect:
         serializedVersion: 2
-        x: 40
-        y: 56
-        width: 8
-        height: 8
+        x: 42
+        y: 58
+        width: 4
+        height: 5
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -488,15 +488,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceShooterAssetPack_Projectiles_18
+      name: Projectile_019
       rect:
         serializedVersion: 2
-        x: 0
-        y: 48
-        width: 8
-        height: 8
+        x: 2
+        y: 49
+        width: 3
+        height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -509,15 +509,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceShooterAssetPack_Projectiles_19
+      name: Projectile_020
       rect:
         serializedVersion: 2
-        x: 8
-        y: 48
-        width: 8
-        height: 8
+        x: 10
+        y: 49
+        width: 3
+        height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -530,15 +530,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceShooterAssetPack_Projectiles_20
+      name: Projectile_021
       rect:
         serializedVersion: 2
-        x: 16
-        y: 48
-        width: 8
-        height: 8
+        x: 19
+        y: 49
+        width: 3
+        height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -551,15 +551,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceShooterAssetPack_Projectiles_21
+      name: Projectile_022
       rect:
         serializedVersion: 2
-        x: 24
-        y: 48
-        width: 8
-        height: 8
+        x: 26
+        y: 50
+        width: 3
+        height: 3
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -572,15 +572,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceShooterAssetPack_Projectiles_22
+      name: Projectile_023
       rect:
         serializedVersion: 2
-        x: 32
-        y: 48
-        width: 8
-        height: 8
+        x: 33
+        y: 49
+        width: 6
+        height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -593,15 +593,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceShooterAssetPack_Projectiles_23
+      name: Projectile_024
       rect:
         serializedVersion: 2
-        x: 40
-        y: 48
-        width: 8
-        height: 8
+        x: 42
+        y: 50
+        width: 4
+        height: 5
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -614,15 +614,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceShooterAssetPack_Projectiles_24
+      name: Projectile_025
       rect:
         serializedVersion: 2
-        x: 0
-        y: 40
-        width: 8
-        height: 8
+        x: 2
+        y: 42
+        width: 5
+        height: 5
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -635,7 +635,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceShooterAssetPack_Projectiles_25
+      name: Projectile_026
       rect:
         serializedVersion: 2
         x: 8
@@ -643,7 +643,7 @@ TextureImporter:
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -656,15 +656,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceShooterAssetPack_Projectiles_26
+      name: Projectile_027
       rect:
         serializedVersion: 2
-        x: 16
-        y: 40
-        width: 8
-        height: 8
+        x: 17
+        y: 41
+        width: 6
+        height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -677,15 +677,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceShooterAssetPack_Projectiles_27
+      name: Projectile_028
       rect:
         serializedVersion: 2
-        x: 24
-        y: 40
-        width: 8
-        height: 8
+        x: 25
+        y: 41
+        width: 6
+        height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -698,15 +698,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceShooterAssetPack_Projectiles_28
+      name: Projectile_029
       rect:
         serializedVersion: 2
-        x: 32
-        y: 40
-        width: 8
-        height: 8
+        x: 35
+        y: 42
+        width: 3
+        height: 3
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -719,15 +719,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceShooterAssetPack_Projectiles_29
+      name: Projectile_030
       rect:
         serializedVersion: 2
-        x: 40
-        y: 40
-        width: 8
-        height: 8
+        x: 42
+        y: 41
+        width: 3
+        height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -740,15 +740,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceShooterAssetPack_Projectiles_30
+      name: Projectile_031
       rect:
         serializedVersion: 2
-        x: 0
-        y: 32
-        width: 8
-        height: 8
+        x: 1
+        y: 33
+        width: 6
+        height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -761,7 +761,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceShooterAssetPack_Projectiles_31
+      name: Projectile_032
       rect:
         serializedVersion: 2
         x: 8
@@ -769,7 +769,7 @@ TextureImporter:
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -782,7 +782,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceShooterAssetPack_Projectiles_32
+      name: Projectile_033
       rect:
         serializedVersion: 2
         x: 16
@@ -790,7 +790,7 @@ TextureImporter:
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -803,7 +803,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceShooterAssetPack_Projectiles_33
+      name: Projectile_034
       rect:
         serializedVersion: 2
         x: 24
@@ -811,7 +811,7 @@ TextureImporter:
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -824,15 +824,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceShooterAssetPack_Projectiles_34
+      name: Projectile_035
       rect:
         serializedVersion: 2
-        x: 32
-        y: 32
-        width: 8
-        height: 8
+        x: 34
+        y: 34
+        width: 5
+        height: 5
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -845,15 +845,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceShooterAssetPack_Projectiles_35
+      name: Projectile_036
       rect:
         serializedVersion: 2
-        x: 40
-        y: 32
-        width: 8
-        height: 8
+        x: 42
+        y: 34
+        width: 5
+        height: 5
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -866,15 +866,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceShooterAssetPack_Projectiles_36
+      name: Projectile_037
       rect:
         serializedVersion: 2
-        x: 0
-        y: 24
-        width: 8
-        height: 8
+        x: 1
+        y: 25
+        width: 6
+        height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -887,15 +887,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceShooterAssetPack_Projectiles_37
+      name: Projectile_038
       rect:
         serializedVersion: 2
-        x: 8
-        y: 24
-        width: 8
-        height: 8
+        x: 9
+        y: 25
+        width: 7
+        height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -908,7 +908,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceShooterAssetPack_Projectiles_38
+      name: Projectile_039
       rect:
         serializedVersion: 2
         x: 16
@@ -916,7 +916,7 @@ TextureImporter:
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -929,7 +929,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceShooterAssetPack_Projectiles_39
+      name: Projectile_040
       rect:
         serializedVersion: 2
         x: 24
@@ -937,7 +937,7 @@ TextureImporter:
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -950,15 +950,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceShooterAssetPack_Projectiles_40
+      name: Projectile_041
       rect:
         serializedVersion: 2
-        x: 32
-        y: 24
-        width: 8
-        height: 8
+        x: 33
+        y: 25
+        width: 6
+        height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -971,15 +971,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceShooterAssetPack_Projectiles_41
+      name: Projectile_042
       rect:
         serializedVersion: 2
-        x: 40
-        y: 24
-        width: 8
-        height: 8
+        x: 41
+        y: 25
+        width: 6
+        height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -992,7 +992,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceShooterAssetPack_Projectiles_42
+      name: Projectile_043
       rect:
         serializedVersion: 2
         x: 0
@@ -1000,7 +1000,7 @@ TextureImporter:
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1013,7 +1013,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceShooterAssetPack_Projectiles_43
+      name: Projectile_044
       rect:
         serializedVersion: 2
         x: 8
@@ -1021,7 +1021,7 @@ TextureImporter:
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1034,15 +1034,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceShooterAssetPack_Projectiles_44
+      name: Projectile_045
       rect:
         serializedVersion: 2
-        x: 16
-        y: 16
-        width: 8
-        height: 8
+        x: 18
+        y: 18
+        width: 5
+        height: 5
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1055,7 +1055,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceShooterAssetPack_Projectiles_45
+      name: Projectile_046
       rect:
         serializedVersion: 2
         x: 24
@@ -1063,7 +1063,7 @@ TextureImporter:
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1076,15 +1076,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceShooterAssetPack_Projectiles_46
+      name: Projectile_047
       rect:
         serializedVersion: 2
-        x: 32
-        y: 16
-        width: 8
-        height: 8
+        x: 33
+        y: 17
+        width: 6
+        height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1097,15 +1097,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceShooterAssetPack_Projectiles_47
+      name: Projectile_048
       rect:
         serializedVersion: 2
-        x: 40
-        y: 16
-        width: 8
-        height: 8
+        x: 41
+        y: 17
+        width: 5
+        height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1126,7 +1126,7 @@ TextureImporter:
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1147,7 +1147,7 @@ TextureImporter:
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1168,7 +1168,7 @@ TextureImporter:
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1189,7 +1189,7 @@ TextureImporter:
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1210,7 +1210,7 @@ TextureImporter:
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1231,7 +1231,7 @@ TextureImporter:
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1252,7 +1252,7 @@ TextureImporter:
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1273,7 +1273,7 @@ TextureImporter:
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1294,7 +1294,7 @@ TextureImporter:
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1315,7 +1315,7 @@ TextureImporter:
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1336,7 +1336,7 @@ TextureImporter:
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1357,7 +1357,7 @@ TextureImporter:
         width: 8
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1380,52 +1380,56 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      SpaceShooterAssetPack_Projectiles_0: -1410855170
-      SpaceShooterAssetPack_Projectiles_1: -1243035324
-      SpaceShooterAssetPack_Projectiles_10: 794624719
-      SpaceShooterAssetPack_Projectiles_11: 566253691
-      SpaceShooterAssetPack_Projectiles_12: -1390134400
-      SpaceShooterAssetPack_Projectiles_13: -749599673
-      SpaceShooterAssetPack_Projectiles_14: -1412677667
-      SpaceShooterAssetPack_Projectiles_15: 1561452421
-      SpaceShooterAssetPack_Projectiles_16: -1443562956
-      SpaceShooterAssetPack_Projectiles_17: 2091441180
-      SpaceShooterAssetPack_Projectiles_18: 702208868
-      SpaceShooterAssetPack_Projectiles_19: 190211087
-      SpaceShooterAssetPack_Projectiles_2: -347380019
-      SpaceShooterAssetPack_Projectiles_20: -2093979613
-      SpaceShooterAssetPack_Projectiles_21: -1135033338
-      SpaceShooterAssetPack_Projectiles_22: -1400004461
-      SpaceShooterAssetPack_Projectiles_23: -1391184475
-      SpaceShooterAssetPack_Projectiles_24: -251386691
-      SpaceShooterAssetPack_Projectiles_25: 515650980
-      SpaceShooterAssetPack_Projectiles_26: -501411580
-      SpaceShooterAssetPack_Projectiles_27: 430443601
-      SpaceShooterAssetPack_Projectiles_28: -2029407570
-      SpaceShooterAssetPack_Projectiles_29: -136164245
-      SpaceShooterAssetPack_Projectiles_3: -1584532143
-      SpaceShooterAssetPack_Projectiles_30: 1717387065
-      SpaceShooterAssetPack_Projectiles_31: 865251051
-      SpaceShooterAssetPack_Projectiles_32: 1632458768
-      SpaceShooterAssetPack_Projectiles_33: 1569309890
-      SpaceShooterAssetPack_Projectiles_34: -753396290
-      SpaceShooterAssetPack_Projectiles_35: -872527264
-      SpaceShooterAssetPack_Projectiles_36: -2113649547
-      SpaceShooterAssetPack_Projectiles_37: -1699675317
-      SpaceShooterAssetPack_Projectiles_38: 2100178676
-      SpaceShooterAssetPack_Projectiles_39: -1459277758
-      SpaceShooterAssetPack_Projectiles_4: -2114933650
-      SpaceShooterAssetPack_Projectiles_40: 10713630
-      SpaceShooterAssetPack_Projectiles_41: 290952136
-      SpaceShooterAssetPack_Projectiles_42: 1010906953
-      SpaceShooterAssetPack_Projectiles_43: -1954447919
-      SpaceShooterAssetPack_Projectiles_44: -746104386
-      SpaceShooterAssetPack_Projectiles_45: -1644892907
-      SpaceShooterAssetPack_Projectiles_46: 1715398351
-      SpaceShooterAssetPack_Projectiles_47: 1416059965
+      Projectile_001: -1410855170
+      Projectile_002: -1243035324
+      Projectile_003: -347380019
+      Projectile_004: -1584532143
+      Projectile_005: -2114933650
+      Projectile_006: 1228970427
+      Projectile_007: 1651854718
+      Projectile_008: -2095801510
+      Projectile_009: -528608178
+      Projectile_010: -1071885299
+      Projectile_011: 794624719
+      Projectile_012: 566253691
+      Projectile_013: -1390134400
+      Projectile_014: -749599673
+      Projectile_015: -1412677667
+      Projectile_016: 1561452421
+      Projectile_017: -1443562956
+      Projectile_018: 2091441180
+      Projectile_019: 702208868
+      Projectile_020: 190211087
+      Projectile_021: -2093979613
+      Projectile_022: -1135033338
+      Projectile_023: -1400004461
+      Projectile_024: -1391184475
+      Projectile_025: -251386691
+      Projectile_026: 515650980
+      Projectile_027: -501411580
+      Projectile_028: 430443601
+      Projectile_029: -2029407570
+      Projectile_030: -136164245
+      Projectile_031: 1717387065
+      Projectile_032: 865251051
+      Projectile_033: 1632458768
+      Projectile_034: 1569309890
+      Projectile_035: -753396290
+      Projectile_036: -872527264
+      Projectile_037: -2113649547
+      Projectile_038: -1699675317
+      Projectile_039: 2100178676
+      Projectile_040: -1459277758
+      Projectile_041: 10713630
+      Projectile_042: 290952136
+      Projectile_043: 1010906953
+      Projectile_044: -1954447919
+      Projectile_045: -746104386
+      Projectile_046: -1644892907
+      Projectile_047: 1715398351
+      Projectile_048: 1416059965
       SpaceShooterAssetPack_Projectiles_48: 852692240
       SpaceShooterAssetPack_Projectiles_49: 1509587714
-      SpaceShooterAssetPack_Projectiles_5: 1228970427
       SpaceShooterAssetPack_Projectiles_50: 986649030
       SpaceShooterAssetPack_Projectiles_51: -1013917348
       SpaceShooterAssetPack_Projectiles_52: -204180528
@@ -1436,10 +1440,6 @@ TextureImporter:
       SpaceShooterAssetPack_Projectiles_57: -922342350
       SpaceShooterAssetPack_Projectiles_58: -278840010
       SpaceShooterAssetPack_Projectiles_59: -34621348
-      SpaceShooterAssetPack_Projectiles_6: 1651854718
-      SpaceShooterAssetPack_Projectiles_7: -2095801510
-      SpaceShooterAssetPack_Projectiles_8: -528608178
-      SpaceShooterAssetPack_Projectiles_9: -1071885299
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
