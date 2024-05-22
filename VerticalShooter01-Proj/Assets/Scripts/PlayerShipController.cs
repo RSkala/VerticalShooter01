@@ -39,6 +39,8 @@ public class PlayerShipController : MonoBehaviour
     FirePointData _currentFirePointData;
     int _currentShipSpriteIndex;
 
+    Camera _mainCamera;
+
     [System.Serializable]
     public class FirePointData
     {
@@ -58,9 +60,18 @@ public class PlayerShipController : MonoBehaviour
     }
 
     void ResetTimeSinceLastShot() { _timeSinceLastShot = _fireRate; }
+    
+    void Awake()
+    {
+        //Debug.Log("PlayerShipController.Awake");
+    }
 
     void Start()
     {
+        // Camera values
+        _mainCamera = Camera.main;
+
+        // Set Components
         _rigidbody2D = GetComponent<Rigidbody2D>();
         _playerInput = GetComponent<PlayerInput>();
         _spriteRenderer = GetComponent<SpriteRenderer>();
@@ -123,6 +134,25 @@ public class PlayerShipController : MonoBehaviour
 
         // Update the ship sprites
         UpdateShipSprites();
+        RestrictShipToScreenBounds();
+    }
+
+    void RestrictShipToScreenBounds()
+    {
+        float shipWidth = _spriteRenderer.bounds.size.x / 2.0f;
+        float shipHeight = _spriteRenderer.bounds.size.y / 2.0f;
+
+        Vector3 lowerRightScreenPoint = new Vector3(Screen.width, Screen.height, _mainCamera.transform.position.z);
+        Vector2 screenBounds = _mainCamera.ScreenToWorldPoint(lowerRightScreenPoint);
+
+        //Vector2 playerShipPosition = _rigidbody2D.position;
+        Vector2 playerShipPosition = transform.position;
+        playerShipPosition.x = Mathf.Clamp(playerShipPosition.x, screenBounds.x * -1.0f + shipWidth, screenBounds.x - shipWidth);
+        playerShipPosition.y = Mathf.Clamp(playerShipPosition.y, screenBounds.y * -1.0f + shipHeight, screenBounds.y - shipHeight);
+
+        transform.position = playerShipPosition;
+        //_rigidbody2D.position = playerShipPosition;
+        //_rigidbody2D.MovePosition(playerShipPosition);
     }
 
     void UpdateShipSprites()
