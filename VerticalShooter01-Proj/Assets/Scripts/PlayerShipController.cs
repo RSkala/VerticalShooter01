@@ -10,6 +10,7 @@ public class PlayerShipController : MonoBehaviour
     [SerializeField] float _projectileShotsPerSecond = 5.0f;
     [SerializeField] FirePointData[] _firePointDataArray;
     [SerializeField] int _defaultShipSpriteIndex = 0;
+    [SerializeField] float _shipTurnDelayTime = 0.25f; // Number of seconds to wait before "turning" the player ship sprite to the side
 
     Rigidbody2D _rigidbody2D;
     PlayerInput _playerInput;
@@ -20,6 +21,10 @@ public class PlayerShipController : MonoBehaviour
     InputAction _fireInputAction;
     float _fireRate;
     float _timeSinceLastShot;
+
+    // Values for delaying the turning sprite transitions
+    float _timeMovingLeft;
+    float _timeMovingRight;
 
     public enum PowerUpState
     {
@@ -116,25 +121,55 @@ public class PlayerShipController : MonoBehaviour
             }
         }
 
-        // Temp: Set ship sprites
-        if (_movementInput != null)
+        // Update the ship sprites
+        UpdateShipSprites();
+    }
+
+    void UpdateShipSprites()
+    {
+        if (!_movementInput.Equals(Vector2.zero))
         {
             if (_movementInput.x < 0.0f)
             {
-                _spriteRenderer.sprite = GameManager.Instance.PlayerShipSpritesArray[_currentShipSpriteIndex].ShipSpriteLeft;
+                // Player is holding LEFT
+                _timeMovingLeft += Time.deltaTime;
+                if (_timeMovingLeft >= _shipTurnDelayTime)
+                {
+                    // Player has held Left long enough to swap to the Left turning sprite
+                    _spriteRenderer.sprite = GameManager.Instance.PlayerShipSpritesArray[_currentShipSpriteIndex].ShipSpriteLeft;
+                }
+                else
+                {
+                    // Player has NOT held Left long enough to swap sprites, so show the Center (no turn) sprite
+                    _spriteRenderer.sprite = GameManager.Instance.PlayerShipSpritesArray[_currentShipSpriteIndex].ShipSpriteCenter;
+                }
             }
             else if (_movementInput.x > 0.0f)
             {
-                _spriteRenderer.sprite = GameManager.Instance.PlayerShipSpritesArray[_currentShipSpriteIndex].ShipSpriteRight;
+                // Player is holding RIGHT
+                _timeMovingRight += Time.deltaTime;
+                if (_timeMovingRight >= _shipTurnDelayTime)
+                {
+                    // Player has held Right long enough to swap to the Right turning sprite
+                    _spriteRenderer.sprite = GameManager.Instance.PlayerShipSpritesArray[_currentShipSpriteIndex].ShipSpriteRight;
+                }
+                else
+                {
+                    // Player has NOT held Right long enough to swap sprites, so show the Center (no turn) sprite
+                    _spriteRenderer.sprite = GameManager.Instance.PlayerShipSpritesArray[_currentShipSpriteIndex].ShipSpriteCenter;
+                }
             }
             else
             {
+                // Player has input but is not pressing Left or Right (which means the ship is likely moving directly up or down)
                 _spriteRenderer.sprite = GameManager.Instance.PlayerShipSpritesArray[_currentShipSpriteIndex].ShipSpriteCenter;
             }
         }
         else
         {
-            _spriteRenderer.sprite = GameManager.Instance.PlayerShipSpritesArray[0].ShipSpriteCenter;
+            // The player has NO input. Set the Center sprite and clear the input timers
+            _spriteRenderer.sprite = GameManager.Instance.PlayerShipSpritesArray[_currentShipSpriteIndex].ShipSpriteCenter;
+            _timeMovingLeft = _timeMovingRight = 0.0f;
         }
     }
 
@@ -155,6 +190,30 @@ public class PlayerShipController : MonoBehaviour
     void OnMove(InputValue inputValue)
     {
         _movementInput = inputValue.Get<Vector2>();
+
+        // Update the input time values
+        UpdateInputTimeValues();
+    }
+
+    void UpdateInputTimeValues()
+    {
+        if (_movementInput.x < 0.0f)
+        {
+            // Player is pressing Left. Clear the "pressing Right" timer.
+            _timeMovingRight = 0.0f;
+        }
+
+        if (_movementInput.x > 0.0f)
+        {
+            // Player is pressing Right. Clear the "pressing Left" timer.
+            _timeMovingLeft = 0.0f;
+        }
+
+        if (Mathf.Approximately(_movementInput.x, 0.0f))
+        {
+            // Player is NOT pressing Left or Right. Clear the "pressing Left" and "pressing Right" timers.
+            _timeMovingLeft = _timeMovingLeft = 0.0f;
+        }
     }
 
     void OnValidate()
