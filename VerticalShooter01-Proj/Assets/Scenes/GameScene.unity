@@ -361,9 +361,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlayerShipSpritesArray:
+  - ShipSpriteLeft: {fileID: -616450393, guid: 6fd38eed69b26654d90b46518ba691fe, type: 3}
+    ShipSpriteCenter: {fileID: -1958439717, guid: 6fd38eed69b26654d90b46518ba691fe, type: 3}
+    ShipSpriteRight: {fileID: 1871538476, guid: 6fd38eed69b26654d90b46518ba691fe, type: 3}
   - ShipSpriteLeft: {fileID: 1665130720, guid: 6fd38eed69b26654d90b46518ba691fe, type: 3}
     ShipSpriteCenter: {fileID: -558635242, guid: 6fd38eed69b26654d90b46518ba691fe, type: 3}
     ShipSpriteRight: {fileID: -228024594, guid: 6fd38eed69b26654d90b46518ba691fe, type: 3}
+  - ShipSpriteLeft: {fileID: 1568635054, guid: 6fd38eed69b26654d90b46518ba691fe, type: 3}
+    ShipSpriteCenter: {fileID: -1197707245, guid: 6fd38eed69b26654d90b46518ba691fe, type: 3}
+    ShipSpriteRight: {fileID: -1370779764, guid: 6fd38eed69b26654d90b46518ba691fe, type: 3}
+  - ShipSpriteLeft: {fileID: -398270701, guid: 6fd38eed69b26654d90b46518ba691fe, type: 3}
+    ShipSpriteCenter: {fileID: 1244934507, guid: 6fd38eed69b26654d90b46518ba691fe, type: 3}
+    ShipSpriteRight: {fileID: 45256676, guid: 6fd38eed69b26654d90b46518ba691fe, type: 3}
+  - ShipSpriteLeft: {fileID: 380060870, guid: 6fd38eed69b26654d90b46518ba691fe, type: 3}
+    ShipSpriteCenter: {fileID: 2101163436, guid: 6fd38eed69b26654d90b46518ba691fe, type: 3}
+    ShipSpriteRight: {fileID: 968186946, guid: 6fd38eed69b26654d90b46518ba691fe, type: 3}
 --- !u!1 &408800782
 GameObject:
   m_ObjectHideFlags: 0
@@ -1235,6 +1247,7 @@ MonoBehaviour:
     - {fileID: 1863084491}
     - {fileID: 1634879268}
     alignToTransformDirection: 1
+  _defaultShipSpriteIndex: 1
 --- !u!1 &1371569030
 GameObject:
   m_ObjectHideFlags: 0

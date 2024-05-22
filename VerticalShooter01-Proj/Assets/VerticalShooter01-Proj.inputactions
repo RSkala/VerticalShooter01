@@ -49,6 +49,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "ChangeShipSprite",
+                    "type": "Button",
+                    "id": "f1dc3e93-66a6-4ba6-9da9-680d47330500",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -291,6 +300,17 @@
                     "processors": "",
                     "groups": "Keyboard&Mouse;Gamepad",
                     "action": "DecreasePowerUpState",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f0af0009-bc65-47b5-8c67-4e3235de7b5f",
+                    "path": "<Keyboard>/#(3)",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse;Gamepad",
+                    "action": "ChangeShipSprite",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

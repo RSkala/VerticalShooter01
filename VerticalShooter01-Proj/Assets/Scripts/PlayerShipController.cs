@@ -9,6 +9,7 @@ public class PlayerShipController : MonoBehaviour
     [SerializeField] Projectile _projectilePrefab;
     [SerializeField] float _projectileShotsPerSecond = 5.0f;
     [SerializeField] FirePointData[] _firePointDataArray;
+    [SerializeField] int _defaultShipSpriteIndex = 0;
 
     Rigidbody2D _rigidbody2D;
     PlayerInput _playerInput;
@@ -31,6 +32,7 @@ public class PlayerShipController : MonoBehaviour
 
     PowerUpState _currentPowerUpState;
     FirePointData _currentFirePointData;
+    int _currentShipSpriteIndex;
 
     [System.Serializable]
     public class FirePointData
@@ -63,6 +65,13 @@ public class PlayerShipController : MonoBehaviour
 
         // Input
         _fireInputAction = _playerInput.actions["Fire"];
+
+        // Check Ship Sprite index
+        if(_defaultShipSpriteIndex >= GameManager.Instance.PlayerShipSpritesArray.Length)
+        {
+            Debug.LogError("_defaultShipSpriteIndex " + _defaultShipSpriteIndex + " is greater than number of valid ship sprites " + GameManager.Instance.PlayerShipSpritesArray.Length);
+        }
+        _currentShipSpriteIndex = _defaultShipSpriteIndex;
 
         // Weapons / Projectiles
         _fireRate = 1.0f / _projectileShotsPerSecond;
@@ -112,15 +121,15 @@ public class PlayerShipController : MonoBehaviour
         {
             if (_movementInput.x < 0.0f)
             {
-                _spriteRenderer.sprite = GameManager.Instance.PlayerShipSpritesArray[0].ShipSpriteLeft;
+                _spriteRenderer.sprite = GameManager.Instance.PlayerShipSpritesArray[_currentShipSpriteIndex].ShipSpriteLeft;
             }
             else if (_movementInput.x > 0.0f)
             {
-                _spriteRenderer.sprite = GameManager.Instance.PlayerShipSpritesArray[0].ShipSpriteRight;
+                _spriteRenderer.sprite = GameManager.Instance.PlayerShipSpritesArray[_currentShipSpriteIndex].ShipSpriteRight;
             }
             else
             {
-                _spriteRenderer.sprite = GameManager.Instance.PlayerShipSpritesArray[0].ShipSpriteCenter;
+                _spriteRenderer.sprite = GameManager.Instance.PlayerShipSpritesArray[_currentShipSpriteIndex].ShipSpriteCenter;
             }
         }
         else
@@ -150,6 +159,11 @@ public class PlayerShipController : MonoBehaviour
 
     void OnValidate()
     {
+        if(_defaultShipSpriteIndex < 0)
+        {
+            _defaultShipSpriteIndex = 0;
+        }
+
         if(_projectileShotsPerSecond <= 0.0f)
         {
             _projectileShotsPerSecond = 1.0f;
@@ -165,6 +179,16 @@ public class PlayerShipController : MonoBehaviour
     void OnDecreasePowerUpState()
     {
         DecrementPowerUpState();
+    }
+
+    // Debug function for changing ship sprite during game
+    void OnChangeShipSprite()
+    {
+        _currentShipSpriteIndex++;
+        if(_currentShipSpriteIndex >= GameManager.Instance.PlayerShipSpritesArray.Length)
+        {
+            _currentShipSpriteIndex = 0;
+        }
     }
 
     void IncrementPowerUpState()
