@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 8
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -108,7 +108,1372 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Icon_X
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ef6ba15c9f401e469fcdb94e5841c73
+      internalID: 593565419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_1_Dot
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcfefae3b5f2d7c478bdbac5ae6f43b8
+      internalID: -1199849405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_Heart_Large
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a282b62dfbb70e4d9705b6d1cfc2c87
+      internalID: 1044092835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_Shield_Large
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 334ac8e7dc051e24aa0fc947421599ac
+      internalID: 875295612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ship_Exhaust_Orange_1_1
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 61
+        width: 1
+        height: 3
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d8f0e03f4818e044a27039e49e6101b
+      internalID: 1335165653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ship_Exhaust_Orange_1_2
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 61
+        width: 1
+        height: 3
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea9c6a6fd22dee04b9c1a151deacaf7a
+      internalID: -426706503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ship_Exhaust_Orange_1_3
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 61
+        width: 1
+        height: 3
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41280244607f4874fbe462c8845ddeaf
+      internalID: -1602609239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ship_Exhaust_Orange_1_4
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 61
+        width: 1
+        height: 3
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48dfdbbb3fa9c204da6d841ddcb20958
+      internalID: 4689651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ship_Exhaust_Green_1_1
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 61
+        width: 1
+        height: 3
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7634747ae23520b46b249609d31a5ad8
+      internalID: 1310627270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ship_Exhaust_Green_1_2
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 61
+        width: 1
+        height: 3
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d0389f3fde353943a5780cd92fac6e2
+      internalID: 624946563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ship_Exhaust_Green_1_3
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 61
+        width: 1
+        height: 3
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9877169cb5539fc4881a61713a9e349f
+      internalID: 104409573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ship_Exhaust_Green_1_4
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 61
+        width: 1
+        height: 3
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 409646a7e7e3ffc4595c959b89dd1977
+      internalID: 1313028467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_O
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60d6a5a7832d14f4195f759eda79322e
+      internalID: -1711717234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_4_Dots
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 48
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02131f1eb6ded5f48a37ea2bba895e5e
+      internalID: 1696256272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_Arrow
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 48
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33654abc87047204da935fabd27e27e9
+      internalID: -1398235365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_RedLines
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 48
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3529171ee369e634cb0cc3a26d7697cb
+      internalID: -1118834589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ship_Exhaust_Orange_2_1
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 52
+        width: 2
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e9ceddd4688e6e458095dfe701d8c8a
+      internalID: 2109033501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ship_Exhaust_Orange_2_2
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 52
+        width: 2
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 177ee9aa23ec76c4cb49ae5d85edbea1
+      internalID: 292134955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ship_Exhaust_Orange_2_3
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 52
+        width: 2
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c74733e25dd62642afcadc55a76e5ef
+      internalID: -1277942535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ship_Exhaust_Orange_2_4
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 52
+        width: 2
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6686f3f7d0a7e7548b85c408e068969e
+      internalID: 442448765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ship_Exhaust_Green_2_1
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 52
+        width: 2
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d02007e129ed5ad4ba7a543793f5d92e
+      internalID: 499212157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ship_Exhaust_Green_2_2
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 52
+        width: 2
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e745e1b6c9e23b3428f691cb823fd458
+      internalID: -1407769000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ship_Exhaust_Green_2_3
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 52
+        width: 2
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a95037ad79c9104488ae14068e8c01de
+      internalID: -1577659235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ship_Exhaust_Green_2_4
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 52
+        width: 2
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24b5b06e5daed9843b1a365c2caf333c
+      internalID: 1909235826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shield_L
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 40
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a853225bcef309e4d8f102e0f994ad21
+      internalID: -174520384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shield_R
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 40
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 908a0746583ca2047a7293ab087ea1ef
+      internalID: -1209026517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asteroid_Large
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 33
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e013eae81ce485d4cad6e77e9918bc36
+      internalID: -1702186782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ship_Exhaust_Orange_3_1
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 44
+        width: 3
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5929032e1e9fd4c478983d3f10206db2
+      internalID: 1610125002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ship_Exhaust_Orange_3_2
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 44
+        width: 3
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 756eb89f9be0e8040b0199bcc2ba83d0
+      internalID: 386986238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ship_Exhaust_Orange_3_3
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 44
+        width: 3
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bfa359ddc11a7944a6380a647f2386d
+      internalID: 1039239879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ship_Exhaust_Orange_3_4
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 44
+        width: 3
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4469eed8203837947945cc9d5008ec8d
+      internalID: -1240512304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ship_Exhaust_Green_3_1
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 44
+        width: 3
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d8c3dc78449d684d9c87a054c736193
+      internalID: 1012086716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ship_Exhaust_Green_3_2
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 44
+        width: 3
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c12b8d6caf5a3e14fada50fc40794da2
+      internalID: 794938361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ship_Exhaust_Green_3_3
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 44
+        width: 3
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60feb58d117a6c34da8dc428fba012af
+      internalID: -1466977959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ship_Exhaust_Green_3_4
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 44
+        width: 3
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a42d0242918d5a442b587255b9470730
+      internalID: 59796306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_Shield_Small
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 33
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4997c5ddafa6153498e41eb752ebe3bd
+      internalID: 1920255366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asteroid_Small
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 32
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db8b35d167f04d3429eefea3091252c2
+      internalID: 1378675693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ship_Exhaust_Orange_4_1
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 35
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 046a31232e345194aabce907e826cb1b
+      internalID: -295381026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ship_Exhaust_Orange_4_2
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 35
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9dc946b9ce4bb54db2ff404f09bfbbb
+      internalID: 1866152693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ship_Exhaust_Orange_4_3
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 35
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4d5a2c71bc75544485dd61ac33a51d1
+      internalID: 635122607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ship_Exhaust_Orange_4_4
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 35
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 657c489134c196c4a81d33ea8a2f2a2e
+      internalID: 1310914047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ship_Exhaust_Green_4_1
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 35
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76bca063502165544b86795b76a48cff
+      internalID: -940890227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ship_Exhaust_Green_4_2
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 35
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc5fcf9f97691c94398f5ccc6612e36b
+      internalID: 537925164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ship_Exhaust_Green_4_3
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 36
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dfdbfd11f8237c45b10e1ffbe78ab62
+      internalID: -1996725386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ship_Exhaust_Green_4_4
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 36
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e118fc9a4eba94f479e59e6d13d1661a
+      internalID: 1141478200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_Heart_Small
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 26
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f5ea3668f927aa4f8dd139348c02d44
+      internalID: -708578052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chain_1
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 26
+        width: 8
+        height: 3
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5fd54c56a45f6d438597e4dfea9c84f
+      internalID: -2025927276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chain_2
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 26
+        width: 8
+        height: 3
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c9fff5defe08ce419ecc2c75aa72f5a
+      internalID: 864593316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chain_3
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 26
+        width: 8
+        height: 3
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c31c873b58705954aa12eabb8878694a
+      internalID: -473308581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shield_Bubble_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a31add989df02143bd5647edff2bb3a
+      internalID: -1768688504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shield_Bubble_2
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55eeebc8a09315b40b75f1cfdb023bed
+      internalID: 423836766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shield_Bubble_3
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb344c0a695f2984db6f4e49b3dd7ae6
+      internalID: -710170984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shield_Bubble_4
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c5a45e7bbded3148a89c4ffb1d313b6
+      internalID: -1857966924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_Pink_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 8
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 825538aa76da335408719e8adcca127a
+      internalID: -1641474806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_Pink_2
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 8
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d578e89773016642a3d4e50c9ecc20b
+      internalID: 1380922199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_Pink_3
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 8
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1f120fb321ab6d4fa6ebd727f6e580a
+      internalID: 1505655709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_Pink_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 8
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bd452f5aae041047983fa1275f1b1cc
+      internalID: -802384557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_Orange_1
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 8
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2440184e8e658504aba627f1a8487b03
+      internalID: 1085859450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_Orange_2
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 8
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a45b9a7054a3b96469008499f5587cd1
+      internalID: -855744842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_Orange_3
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 8
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85bace8d5307e374a8bbe3de96826959
+      internalID: -1583391378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_Orange_4
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 8
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 682b7235d4da67546affb1d61b7b380f
+      internalID: 1742041020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_Blue_1
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 0
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d8a9551cab707c4c96e4bd982f400cf
+      internalID: 1900632272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_Blue_2
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faa6065f9ebd32741bece09ed6e78abb
+      internalID: -1835323910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_Blue_3
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 0
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42cd7b63de7698e418f99ebb48863460
+      internalID: 892055568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Explosion_Blue_4
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25b1ec0e15cd7ea4e87306dbe759c4c0
+      internalID: -459146365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +1484,88 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Asteroid_Large: -1702186782
+      Asteroid_Large_LL: -665339285
+      Asteroid_Large_LR: -2127465417
+      Asteroid_Large_UR: 179489010
+      Asteroid_Small: 1378675693
+      Chain_1: -2025927276
+      Chain_2: 864593316
+      Chain_3: -473308581
+      Explosion_Blue_1: 1900632272
+      Explosion_Blue_2: -1835323910
+      Explosion_Blue_3: 892055568
+      Explosion_Blue_4: -459146365
+      Explosion_Orange_1: 1085859450
+      Explosion_Orange_2: -855744842
+      Explosion_Orange_3: -1583391378
+      Explosion_Orange_4: 1742041020
+      Explosion_Pink_1: -1641474806
+      Explosion_Pink_2: 1380922199
+      Explosion_Pink_3: 1505655709
+      Explosion_Pink_4: -802384557
+      Icon_1_Dot: -1199849405
+      Icon_4_Dots: 1696256272
+      Icon_Arrow: -1398235365
+      Icon_Heart_Large: 1044092835
+      Icon_Heart_Small: -708578052
+      Icon_O: -1711717234
+      Icon_RedLines: -1118834589
+      Icon_Shield_Large: 875295612
+      Icon_Shield_Small: 1920255366
+      Icon_X: 593565419
+      Shield_Bubble_1: -1768688504
+      Shield_Bubble_2: 423836766
+      Shield_Bubble_3: -710170984
+      Shield_Bubble_4: -1857966924
+      Shield_L: -174520384
+      Shield_R: -1209026517
+      Ship_Exhaust_Green_1_1: 1310627270
+      Ship_Exhaust_Green_1_2: 624946563
+      Ship_Exhaust_Green_1_3: 104409573
+      Ship_Exhaust_Green_1_4: 1313028467
+      Ship_Exhaust_Green_2_1: 499212157
+      Ship_Exhaust_Green_2_2: -1407769000
+      Ship_Exhaust_Green_2_3: -1577659235
+      Ship_Exhaust_Green_2_4: 1909235826
+      Ship_Exhaust_Green_3_1: 1012086716
+      Ship_Exhaust_Green_3_2: 794938361
+      Ship_Exhaust_Green_3_3: -1466977959
+      Ship_Exhaust_Green_3_4: 59796306
+      Ship_Exhaust_Green_4_1: -940890227
+      Ship_Exhaust_Green_4_2: 537925164
+      Ship_Exhaust_Green_4_3: -1996725386
+      Ship_Exhaust_Green_4_4: 1141478200
+      Ship_Exhaust_Orange_1_1: 1335165653
+      Ship_Exhaust_Orange_1_2: -426706503
+      Ship_Exhaust_Orange_1_3: -1602609239
+      Ship_Exhaust_Orange_1_4: 4689651
+      Ship_Exhaust_Orange_2_1: 2109033501
+      Ship_Exhaust_Orange_2_2: 292134955
+      Ship_Exhaust_Orange_2_3: -1277942535
+      Ship_Exhaust_Orange_2_4: 442448765
+      Ship_Exhaust_Orange_3_1: 1610125002
+      Ship_Exhaust_Orange_3_2: 386986238
+      Ship_Exhaust_Orange_3_3: 1039239879
+      Ship_Exhaust_Orange_3_4: -1240512304
+      Ship_Exhaust_Orange_4_1: -295381026
+      Ship_Exhaust_Orange_4_2: 1866152693
+      Ship_Exhaust_Orange_4_3: 635122607
+      Ship_Exhaust_Orange_4_4: 1310914047
+      SpaceShooterAssetPack_Miscellaneous_53: 1991803569
+      SpaceShooterAssetPack_Miscellaneous_55: 1186065626
+      SpaceShooterAssetPack_Miscellaneous_57: -1737161102
+      SpaceShooterAssetPack_Miscellaneous_59: -1382324350
+      SpaceShooterAssetPack_Miscellaneous_60: 529265821
+      SpaceShooterAssetPack_Miscellaneous_61: 43660125
+      SpaceShooterAssetPack_Miscellaneous_62: 868957910
+      SpaceShooterAssetPack_Miscellaneous_63: 54232088
+      SpaceShooterAssetPack_Miscellaneous_64: 1145924980
+      SpaceShooterAssetPack_Miscellaneous_65: -1199116484
+      SpaceShooterAssetPack_Miscellaneous_66: 1808723883
+      SpaceShooterAssetPack_Miscellaneous_67: 1880157256
+      Test_Rectange_Delete_Me: -1997996777
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
