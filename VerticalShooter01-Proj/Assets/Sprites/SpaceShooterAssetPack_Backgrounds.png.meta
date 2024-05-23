@@ -110,15 +110,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SpaceShooterAssetPack_Backgrounds_0
+      name: Background_Stars_Black_1
       rect:
         serializedVersion: 2
         x: 0
-        y: 256.5
-        width: 128.66667
-        height: 256.5
+        y: 257
+        width: 128
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -131,15 +131,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceShooterAssetPack_Backgrounds_1
+      name: Background_Stars_Black_2
       rect:
         serializedVersion: 2
-        x: 128
-        y: 256.5
-        width: 128.66667
-        height: 256.5
+        x: 129
+        y: 257
+        width: 128
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -152,15 +152,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceShooterAssetPack_Backgrounds_2
+      name: Background_Stars_Black_3
       rect:
         serializedVersion: 2
-        x: 256
-        y: 256.5
-        width: 128.66667
-        height: 256.5
+        x: 258
+        y: 257
+        width: 128
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -173,15 +173,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceShooterAssetPack_Backgrounds_3
+      name: Background_Black
       rect:
         serializedVersion: 2
         x: 0
-        y: 0.5
-        width: 128.66667
-        height: 256.5
+        y: 0
+        width: 128
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -194,15 +194,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceShooterAssetPack_Backgrounds_4
+      name: Background_Stars_Transparent_1
       rect:
         serializedVersion: 2
-        x: 128
-        y: 0.5
-        width: 128.66667
-        height: 256.5
+        x: 129
+        y: 0
+        width: 128
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -215,15 +215,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceShooterAssetPack_Backgrounds_5
+      name: Background_Stars_Transparent_2
       rect:
         serializedVersion: 2
-        x: 256
-        y: 0.5
-        width: 128.66667
-        height: 256.5
+        x: 257
+        y: 0
+        width: 128
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -246,12 +246,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      SpaceShooterAssetPack_Backgrounds_0: -419061948
-      SpaceShooterAssetPack_Backgrounds_1: -1573299481
-      SpaceShooterAssetPack_Backgrounds_2: -78527085
-      SpaceShooterAssetPack_Backgrounds_3: -615639737
-      SpaceShooterAssetPack_Backgrounds_4: -1433920029
-      SpaceShooterAssetPack_Backgrounds_5: -1613934110
+      Background_Black: -615639737
+      Background_Stars_Black_1: -419061948
+      Background_Stars_Black_2: -1573299481
+      Background_Stars_Black_3: -78527085
+      Background_Stars_Transparent_1: -1433920029
+      Background_Stars_Transparent_2: -1613934110
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
