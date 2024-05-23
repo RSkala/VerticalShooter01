@@ -173,13 +173,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceShooterAssetPack_Ships_3
+      name: Enemy_Ship_01
       rect:
         serializedVersion: 2
-        x: 32
-        y: 72
-        width: 8
-        height: 8
+        x: 34
+        y: 73
+        width: 5
+        height: 5
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,13 +194,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceShooterAssetPack_Ships_4
+      name: Enemy_Ship_02
       rect:
         serializedVersion: 2
         x: 40
-        y: 72
-        width: 8
-        height: 8
+        y: 73
+        width: 7
+        height: 5
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,13 +215,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceShooterAssetPack_Ships_5
+      name: Enemy_Ship_03
       rect:
         serializedVersion: 2
-        x: 48
-        y: 72
-        width: 8
-        height: 8
+        x: 49
+        y: 73
+        width: 5
+        height: 5
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -236,13 +236,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceShooterAssetPack_Ships_6
+      name: Enemy_Ship_04
       rect:
         serializedVersion: 2
-        x: 56
-        y: 72
-        width: 8
-        height: 8
+        x: 57
+        y: 73
+        width: 6
+        height: 4
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -257,13 +257,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceShooterAssetPack_Ships_7
+      name: Enemy_Ship_05
       rect:
         serializedVersion: 2
-        x: 64
-        y: 72
-        width: 8
-        height: 8
+        x: 66
+        y: 74
+        width: 5
+        height: 4
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -278,13 +278,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceShooterAssetPack_Ships_8
+      name: Enemy_Ship_06
       rect:
         serializedVersion: 2
-        x: 72
-        y: 72
-        width: 8
-        height: 8
+        x: 73
+        y: 73
+        width: 7
+        height: 5
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -362,13 +362,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceShooterAssetPack_Ships_12
+      name: Enemy_Ship_07
       rect:
         serializedVersion: 2
-        x: 32
-        y: 64
-        width: 8
-        height: 8
+        x: 33
+        y: 66
+        width: 6
+        height: 4
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -383,13 +383,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceShooterAssetPack_Ships_13
+      name: Enemy_Ship_08
       rect:
         serializedVersion: 2
-        x: 40
-        y: 64
-        width: 8
-        height: 8
+        x: 41
+        y: 66
+        width: 6
+        height: 4
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -404,13 +404,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceShooterAssetPack_Ships_14
+      name: Enemy_Ship_09
       rect:
         serializedVersion: 2
-        x: 48
-        y: 64
-        width: 8
-        height: 8
+        x: 49
+        y: 65
+        width: 5
+        height: 5
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -425,13 +425,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceShooterAssetPack_Ships_15
+      name: Enemy_Ship_10
       rect:
         serializedVersion: 2
-        x: 56
-        y: 64
-        width: 8
-        height: 8
+        x: 57
+        y: 65
+        width: 6
+        height: 5
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -446,13 +446,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceShooterAssetPack_Ships_16
+      name: Enemy_Ship_11
       rect:
         serializedVersion: 2
-        x: 64
-        y: 64
-        width: 8
-        height: 8
+        x: 65
+        y: 65
+        width: 6
+        height: 5
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -467,13 +467,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceShooterAssetPack_Ships_17
+      name: Enemy_Ship_12
       rect:
         serializedVersion: 2
-        x: 72
-        y: 64
-        width: 8
-        height: 8
+        x: 74
+        y: 65
+        width: 4
+        height: 5
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -551,13 +551,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceShooterAssetPack_Ships_21
+      name: Enemy_Ship_13
       rect:
         serializedVersion: 2
-        x: 32
-        y: 56
-        width: 8
-        height: 8
+        x: 33
+        y: 57
+        width: 7
+        height: 6
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -572,13 +572,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceShooterAssetPack_Ships_22
+      name: Enemy_Ship_14
       rect:
         serializedVersion: 2
         x: 40
-        y: 56
+        y: 57
         width: 8
-        height: 8
+        height: 6
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -593,13 +593,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceShooterAssetPack_Ships_23
+      name: Enemy_Ship_15
       rect:
         serializedVersion: 2
-        x: 48
+        x: 49
         y: 56
-        width: 8
-        height: 8
+        width: 6
+        height: 6
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -614,13 +614,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceShooterAssetPack_Ships_24
+      name: Enemy_Ship_16
       rect:
         serializedVersion: 2
-        x: 56
+        x: 57
         y: 56
-        width: 8
-        height: 8
+        width: 5
+        height: 6
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -635,13 +635,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceShooterAssetPack_Ships_25
+      name: Enemy_Ship_17
       rect:
         serializedVersion: 2
         x: 64
-        y: 56
+        y: 57
         width: 8
-        height: 8
+        height: 5
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -656,13 +656,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceShooterAssetPack_Ships_26
+      name: Enemy_Ship_18
       rect:
         serializedVersion: 2
-        x: 72
-        y: 56
-        width: 8
-        height: 8
+        x: 73
+        y: 57
+        width: 6
+        height: 5
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -740,13 +740,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceShooterAssetPack_Ships_30
+      name: Enemy_Ship_19
       rect:
         serializedVersion: 2
-        x: 32
-        y: 48
-        width: 8
-        height: 8
+        x: 33
+        y: 49
+        width: 6
+        height: 6
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -761,13 +761,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceShooterAssetPack_Ships_31
+      name: Enemy_Ship_20
       rect:
         serializedVersion: 2
-        x: 40
-        y: 48
-        width: 8
-        height: 8
+        x: 41
+        y: 49
+        width: 6
+        height: 6
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -782,13 +782,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceShooterAssetPack_Ships_32
+      name: Enemy_Ship_21
       rect:
         serializedVersion: 2
-        x: 48
-        y: 48
-        width: 8
-        height: 8
+        x: 49
+        y: 49
+        width: 6
+        height: 6
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -803,13 +803,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceShooterAssetPack_Ships_33
+      name: Enemy_Ship_22
       rect:
         serializedVersion: 2
-        x: 56
-        y: 48
-        width: 8
-        height: 8
+        x: 57
+        y: 49
+        width: 5
+        height: 6
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -824,13 +824,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceShooterAssetPack_Ships_34
+      name: Enemy_Ship_23
       rect:
         serializedVersion: 2
-        x: 64
-        y: 48
-        width: 8
-        height: 8
+        x: 65
+        y: 50
+        width: 6
+        height: 5
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -845,13 +845,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceShooterAssetPack_Ships_35
+      name: Enemy_Ship_24
       rect:
         serializedVersion: 2
         x: 72
-        y: 48
+        y: 49
         width: 8
-        height: 8
+        height: 6
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -929,7 +929,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceShooterAssetPack_Ships_39
+      name: Enemy_Ship_25
       rect:
         serializedVersion: 2
         x: 32
@@ -950,7 +950,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceShooterAssetPack_Ships_40
+      name: Enemy_Ship_26
       rect:
         serializedVersion: 2
         x: 40
@@ -971,7 +971,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceShooterAssetPack_Ships_41
+      name: Enemy_Ship_27
       rect:
         serializedVersion: 2
         x: 48
@@ -992,13 +992,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceShooterAssetPack_Ships_42
+      name: Enemy_Ship_28
       rect:
         serializedVersion: 2
         x: 56
         y: 40
         width: 8
-        height: 8
+        height: 7
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1013,13 +1013,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceShooterAssetPack_Ships_43
+      name: Enemy_Ship_29
       rect:
         serializedVersion: 2
         x: 64
-        y: 40
+        y: 41
         width: 8
-        height: 8
+        height: 6
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1034,13 +1034,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceShooterAssetPack_Ships_44
+      name: Enemy_Ship_30
       rect:
         serializedVersion: 2
         x: 72
-        y: 40
+        y: 41
         width: 8
-        height: 8
+        height: 6
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1055,13 +1055,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceShooterAssetPack_Ships_45
+      name: Enemy_Ship_31
       rect:
         serializedVersion: 2
         x: 32
-        y: 32
+        y: 33
         width: 8
-        height: 8
+        height: 6
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1076,7 +1076,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceShooterAssetPack_Ships_46
+      name: Enemy_Ship_32
       rect:
         serializedVersion: 2
         x: 40
@@ -1097,13 +1097,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceShooterAssetPack_Ships_47
+      name: Enemy_Ship_33
       rect:
         serializedVersion: 2
-        x: 48
-        y: 32
-        width: 8
-        height: 8
+        x: 49
+        y: 33
+        width: 6
+        height: 6
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1118,13 +1118,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceShooterAssetPack_Ships_48
+      name: Enemy_Ship_34
       rect:
         serializedVersion: 2
-        x: 56
-        y: 32
-        width: 8
-        height: 8
+        x: 57
+        y: 33
+        width: 6
+        height: 6
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1139,13 +1139,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceShooterAssetPack_Ships_49
+      name: Enemy_Ship_35
       rect:
         serializedVersion: 2
-        x: 64
-        y: 32
-        width: 8
-        height: 8
+        x: 65
+        y: 33
+        width: 6
+        height: 6
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1160,13 +1160,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SpaceShooterAssetPack_Ships_50
+      name: Enemy_Ship_36
       rect:
         serializedVersion: 2
         x: 72
-        y: 32
+        y: 33
         width: 8
-        height: 8
+        height: 7
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1695,6 +1695,42 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      Enemy_Ship_01: 1519387572
+      Enemy_Ship_02: 82935741
+      Enemy_Ship_03: -982919952
+      Enemy_Ship_04: 519861775
+      Enemy_Ship_05: -707001383
+      Enemy_Ship_06: -149418270
+      Enemy_Ship_07: -70926304
+      Enemy_Ship_08: 1916312934
+      Enemy_Ship_09: -1671038507
+      Enemy_Ship_10: 1852475574
+      Enemy_Ship_11: 1850728968
+      Enemy_Ship_12: 1460799800
+      Enemy_Ship_13: -1247998091
+      Enemy_Ship_14: 517003167
+      Enemy_Ship_15: 640528202
+      Enemy_Ship_16: 767382034
+      Enemy_Ship_17: -1661342607
+      Enemy_Ship_18: -1732385745
+      Enemy_Ship_19: -1901942303
+      Enemy_Ship_20: 209587513
+      Enemy_Ship_21: -1278971453
+      Enemy_Ship_22: 1943507043
+      Enemy_Ship_23: -627378723
+      Enemy_Ship_24: 134432076
+      Enemy_Ship_25: 435826509
+      Enemy_Ship_26: -263142989
+      Enemy_Ship_27: 439361664
+      Enemy_Ship_28: -1605831976
+      Enemy_Ship_29: 529554578
+      Enemy_Ship_30: -264652182
+      Enemy_Ship_31: -1921712050
+      Enemy_Ship_32: 191900350
+      Enemy_Ship_33: 2121188374
+      Enemy_Ship_34: 298701846
+      Enemy_Ship_35: 1751257201
+      Enemy_Ship_36: -1760717302
       Player_Ship_1_C: -1958439717
       Player_Ship_1_L: -616450393
       Player_Ship_1_R: 1871538476
@@ -1710,39 +1746,6 @@ TextureImporter:
       Player_Ship_5_C: 2101163436
       Player_Ship_5_L: 380060870
       Player_Ship_5_R: 968186946
-      SpaceShooterAssetPack_Ships_12: -70926304
-      SpaceShooterAssetPack_Ships_13: 1916312934
-      SpaceShooterAssetPack_Ships_14: -1671038507
-      SpaceShooterAssetPack_Ships_15: 1852475574
-      SpaceShooterAssetPack_Ships_16: 1850728968
-      SpaceShooterAssetPack_Ships_17: 1460799800
-      SpaceShooterAssetPack_Ships_21: -1247998091
-      SpaceShooterAssetPack_Ships_22: 517003167
-      SpaceShooterAssetPack_Ships_23: 640528202
-      SpaceShooterAssetPack_Ships_24: 767382034
-      SpaceShooterAssetPack_Ships_25: -1661342607
-      SpaceShooterAssetPack_Ships_26: -1732385745
-      SpaceShooterAssetPack_Ships_3: 1519387572
-      SpaceShooterAssetPack_Ships_30: -1901942303
-      SpaceShooterAssetPack_Ships_31: 209587513
-      SpaceShooterAssetPack_Ships_32: -1278971453
-      SpaceShooterAssetPack_Ships_33: 1943507043
-      SpaceShooterAssetPack_Ships_34: -627378723
-      SpaceShooterAssetPack_Ships_35: 134432076
-      SpaceShooterAssetPack_Ships_39: 435826509
-      SpaceShooterAssetPack_Ships_4: 82935741
-      SpaceShooterAssetPack_Ships_40: -263142989
-      SpaceShooterAssetPack_Ships_41: 439361664
-      SpaceShooterAssetPack_Ships_42: -1605831976
-      SpaceShooterAssetPack_Ships_43: 529554578
-      SpaceShooterAssetPack_Ships_44: -264652182
-      SpaceShooterAssetPack_Ships_45: -1921712050
-      SpaceShooterAssetPack_Ships_46: 191900350
-      SpaceShooterAssetPack_Ships_47: 2121188374
-      SpaceShooterAssetPack_Ships_48: 298701846
-      SpaceShooterAssetPack_Ships_49: 1751257201
-      SpaceShooterAssetPack_Ships_5: -982919952
-      SpaceShooterAssetPack_Ships_50: -1760717302
       SpaceShooterAssetPack_Ships_51: 1645293797
       SpaceShooterAssetPack_Ships_52: -198053901
       SpaceShooterAssetPack_Ships_53: 1681024924
@@ -1752,7 +1755,6 @@ TextureImporter:
       SpaceShooterAssetPack_Ships_57: -1413454111
       SpaceShooterAssetPack_Ships_58: 2050183258
       SpaceShooterAssetPack_Ships_59: -621477568
-      SpaceShooterAssetPack_Ships_6: 519861775
       SpaceShooterAssetPack_Ships_60: -1931186177
       SpaceShooterAssetPack_Ships_61: -570978328
       SpaceShooterAssetPack_Ships_62: 465278572
@@ -1763,13 +1765,11 @@ TextureImporter:
       SpaceShooterAssetPack_Ships_67: -772918718
       SpaceShooterAssetPack_Ships_68: 441671680
       SpaceShooterAssetPack_Ships_69: 891272942
-      SpaceShooterAssetPack_Ships_7: -707001383
       SpaceShooterAssetPack_Ships_70: 738289049
       SpaceShooterAssetPack_Ships_71: 2042295695
       SpaceShooterAssetPack_Ships_72: -1306889457
       SpaceShooterAssetPack_Ships_73: -1314977038
       SpaceShooterAssetPack_Ships_74: -1517000414
-      SpaceShooterAssetPack_Ships_8: -149418270
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
