@@ -108,7 +108,133 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: SpaceShooterAssetPack_Backgrounds_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256.5
+        width: 128.66667
+        height: 256.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ced8f06b406306d43835fb41b9f12fa3
+      internalID: -419061948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShooterAssetPack_Backgrounds_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256.5
+        width: 128.66667
+        height: 256.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8156d2e9bd3dc864b916aca9b0b1553c
+      internalID: -1573299481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShooterAssetPack_Backgrounds_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256.5
+        width: 128.66667
+        height: 256.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b152b7a6f7e64b1428eae45c9a074b12
+      internalID: -78527085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShooterAssetPack_Backgrounds_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0.5
+        width: 128.66667
+        height: 256.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4da523a4aaafaf4aba6a5116163aecc
+      internalID: -615639737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShooterAssetPack_Backgrounds_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0.5
+        width: 128.66667
+        height: 256.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9a7fa48c02014549b00fef2bcbbd1a8
+      internalID: -1433920029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpaceShooterAssetPack_Backgrounds_5
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0.5
+        width: 128.66667
+        height: 256.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bedf94b7b71ac04f8520fbe66a3b36e
+      internalID: -1613934110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +245,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SpaceShooterAssetPack_Backgrounds_0: -419061948
+      SpaceShooterAssetPack_Backgrounds_1: -1573299481
+      SpaceShooterAssetPack_Backgrounds_2: -78527085
+      SpaceShooterAssetPack_Backgrounds_3: -615639737
+      SpaceShooterAssetPack_Backgrounds_4: -1433920029
+      SpaceShooterAssetPack_Backgrounds_5: -1613934110
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
